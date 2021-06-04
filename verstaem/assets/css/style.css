@@ -1,0 +1,81 @@
+/* H1-H6 */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.con {
+    width: 750px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+.con:before {
+  display: table;
+    content: " ";
+}
+
+.con:after  {
+  clear: both;
+  display: table;
+    content: " ";
+}
+/* Intro */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    background: url("../img/intro.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    }
+
+.intro__title {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    }
+
+/* Text */
+
+.leftInfoBlock {
+    float: left;
+    width: 80%;
+    position: relative;
+    color: #36404e;
+    }
+
+.blockWIthInfo {
+    position: relative;
+    background-color: #fff;
+    padding-top: 60px;
+    padding-right: 350px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    font-family: "Roboto", Arial, sans-serif;
+    }
+
+.rightInfoBlock {
+    position: absolute;
+    transition: 1s;
+    text-align: right;
+    width: 70%;
+    padding-top: 70px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    }
+
+/* MENU */
